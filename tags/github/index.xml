@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Leetcode by Golang</title>
-    <link>https://convee.github.io/post/</link>
-    <description>Recent content in Posts on Leetcode by Golang</description>
+    <title>gitHub on Leetcode by Golang</title>
+    <link>https://convee.github.io/tags/github/</link>
+    <description>Recent content in gitHub on Leetcode by Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post title here</title>
       <link>https://convee.github.io/post/first-copy-2/</link>
