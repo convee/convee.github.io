@@ -1,72 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jekyll on Leetcode by Golang</title>
+    <title>jekyll on Backend-Notes</title>
     <link>https://convee.github.io/tags/jekyll/</link>
-    <description>Recent content in jekyll on Leetcode by Golang</description>
+    <description>Recent content in jekyll on Backend-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy-2/</link>
+      <link>https://convee.github.io/post/post/</link>
       <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://convee.github.io/post/first-copy-2/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy-3/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first-copy-3/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy-4/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first-copy-4/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy-5/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first-copy-5/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy-6/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first-copy-6/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first-copy/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first-copy/</guid>
-      <description>Contents here Contents here Contents here Contents here  abc  </description>
-    </item>
-    
-    <item>
-      <title>Post title here</title>
-      <link>https://convee.github.io/post/first/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/post/first/</guid>
+      <guid>https://convee.github.io/post/post/</guid>
       <description>Contents here Contents here Contents here Contents here  abc  </description>
     </item>
     

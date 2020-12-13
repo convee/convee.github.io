@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Backend-Notes</title>
+    <link>https://convee.github.io/tags/php/</link>
+    <description>Recent content in php on Backend-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编译安装PHP</title>
+      <link>https://convee.github.io/post/php/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/php/</guid>
+      <description>安装依赖包 yum install -y gcc gcc-c++ make zlib zlib-devel pcre pcre-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gdbm-devel db4-devel libXpm-devel libX11-devel gd-devel gmp gmp-devel expat-devel libxml2 libxml2-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel libcurl libcurl-devel curl curl-devel libmcrypt libmcrypt-devel libxslt libxslt-devel xmlrpc-c xmlrpc-c-devel libicu-devel libmemcached-devel libzip readline readline-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers 下载 PHP wget https://www.php.net/distributions/php-7.3.20.tar.gz 解压 tar -xzvf php-7.3.20.tar.gz cd php-7.</description>
+    </item>
+    
+  </channel>
+</rss>

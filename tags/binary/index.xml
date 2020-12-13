@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>binary on Backend-Notes</title>
+    <link>https://convee.github.io/tags/binary/</link>
+    <description>Recent content in binary on Backend-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/binary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法 二进制</title>
+      <link>https://convee.github.io/post/binary/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/binary/</guid>
+      <description>常见的二进制操作 位运算    符号 描述 运算规则     &amp;amp; 与 两个位都为1时，结果才为1    或 两个位都为0时，结果才为0   ^ 异或 两个位相同为0，相异为1   ~ 取反 0变1，1变0   &amp;laquo; 左移 各二进位全部左移若干位，高位丢弃，低位补0      |右移|各二进位全部右移若干位，对无符号数，高位补0，有符号数，各编译器处理方法不一样，有的补符号位（算术右移），有的补0（逻辑右移）
+  基本操作  a=a^0=0^a 0=a^a a=a^b^b  交换两个数  a=a^b b=a^b a=a^b  移除最后一个 1  a=n&amp;amp;(n-1)  获取最后一个 1  diff=(n&amp;amp;(n-1))^n  </description>
+    </item>
+    
+  </channel>
+</rss>
