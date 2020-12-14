@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>php on Backend-Notes</title>
+    <title>php on 后端笔记</title>
     <link>https://convee.github.io/tags/php/</link>
-    <description>Recent content in php on Backend-Notes</description>
+    <description>Recent content in php on 后端笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>编译安装PHP</title>
-      <link>https://convee.github.io/post/php/</link>
+      <title>PHP Redis 扩展安装</title>
+      <link>https://convee.github.io/post/php/redis-ext/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://convee.github.io/post/php/</guid>
+      <guid>https://convee.github.io/post/php/redis-ext/</guid>
+      <description>下载源码 wget https://github.com/phpredis/phpredis/archive/5.3.2.tar.gz 解压 tar -zxvf 5.4.3.tag.gz 进入源码目录 cd phpredis-5.3.2 侦测环境  并生成相应的配置文件（包括 configure）phpize 为当前环境下的命令，与 php 是同一级别的  /usr/local/php7/bin/phpize 检查配置与依赖 ./configure [--enable-redis-igbinary] [--enable-redis-msgpack] [--enable-redis-lzf [--with-liblzf[=DIR]]] [--enable-redis-zstd] 编译  会在 modules 目录下生成 redis.so 文件， 复制到 extension_dir 目录下，扩展会成功  make 安装 make install phpredis 文档 https://github.com/phpredis/phpredis/blob/develop/INSTALL.markdown</description>
+    </item>
+    
+    <item>
+      <title>编译安装PHP</title>
+      <link>https://convee.github.io/post/php/install/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/php/install/</guid>
       <description>安装依赖包 yum install -y gcc gcc-c++ make zlib zlib-devel pcre pcre-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gdbm-devel db4-devel libXpm-devel libX11-devel gd-devel gmp gmp-devel expat-devel libxml2 libxml2-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel libcurl libcurl-devel curl curl-devel libmcrypt libmcrypt-devel libxslt libxslt-devel xmlrpc-c xmlrpc-c-devel libicu-devel libmemcached-devel libzip readline readline-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers 下载 PHP wget https://www.php.net/distributions/php-7.3.20.tar.gz 解压 tar -xzvf php-7.3.20.tar.gz cd php-7.</description>
     </item>
     

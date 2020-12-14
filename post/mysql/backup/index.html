@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title> chan &middot; 后端笔记 </title>
+<title> Mysql 备份与恢复 &middot; 后端笔记 </title>
 
 
 <link rel="stylesheet" href="https://convee.github.io/css/slim.css">
@@ -15,7 +15,6 @@
 <link rel="shortcut icon" href="/favicon.ico">
 
 
-<link rel="alternate" type="application/rss+xml" href="https://convee.github.io/tags/chan/index.xml" title="后端笔记" />
 
 </head>
 
@@ -40,27 +39,29 @@
 </div>
     <div class="content">
       <div class="posts">
-         
         <div class="post">
-          <h2 class="post-title"><a href="https://convee.github.io/post/go/chan/">Go 管道</a></h2>
-          <span class="post-date">Dec 13, 2020</span>
-		  
-			<span class="post-tags">
-		  	
-			          #<a href="https://convee.github.io/tags/chan">chan</a>&nbsp;
-		  	
-			          #<a href="https://convee.github.io/tags/go">go</a>&nbsp;
-		  	
-		    </span>
-		  
-		  
+          <h2 class="post-title"><a href="https://convee.github.io/post/mysql/backup/">Mysql 备份与恢复</a></h2>
+          <span class="post-date">Dec 13, 2020 </span>
+          <div class="post-content">
+            <h2 id="恢复到指定数据库">恢复到指定数据库</h2>
+<pre><code>mysql -hhostname -uusername -ppassword databasename &lt; backup.sql
+</code></pre><h2 id="还原压缩的mysql数据备份文件">还原压缩的MySQL数据备份文件</h2>
+<pre><code>gunzip &lt; backup.sql.gz | mysql -uusername -ppassword databasename
+</code></pre><h2 id="直接将备份导入到新的数据库">直接将备份导入到新的数据库</h2>
+<pre><code>mysqldump -uusername -ppassword databasename | mysql -host=192.168.0.1 -C databasename
+</code></pre><h2 id="使用source导入sql文件">使用source导入sql文件</h2>
+<pre><code>mysql &gt; use test
+mysql &gt; source /data/test_backup.sql
+</code></pre>
+          </div>
         </div>
-        
+        <div class="pagination">
+          <a class="btn previous " href="https://convee.github.io/post/php/redis-ext/"> Prev</a>  
+          <a class="btn next " href="https://convee.github.io/post/mysql/grant/"> Next</a> 
+        </div>
       </div>
-      <div class="pagination">
-   
-</div>
     </div>
+    
     <div class="footer">
   
   <p>Copyright Me 2020.</p>
@@ -69,6 +70,10 @@
 
   </div>
   <script src="https://convee.github.io/js/slim.js"></script>
+  <script src="https://convee.github.io/js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
   <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,7 +84,6 @@ ga('create', 'convee', 'auto');
 ga('send', 'pageview');
 
 </script>
-
 
 </body>
 
