@@ -6,22 +6,22 @@
     <description>Recent content in Tags on 后端笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go</title>
+      <link>https://convee.github.io/tags/go/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>chan</title>
       <link>https://convee.github.io/tags/chan/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://convee.github.io/tags/chan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://convee.github.io/tags/go/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://convee.github.io/tags/go/</guid>
       <description></description>
     </item>
     
