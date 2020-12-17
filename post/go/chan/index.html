@@ -71,8 +71,11 @@
 <ul>
 <li>从channel读数据，如果channel缓冲区为空或者没有缓冲区，当前goroutine会被阻塞。向channel写数据，如果channel缓冲区已满或者没有缓冲区，当前goroutine会被阻塞。</li>
 <li>被阻塞的goroutine将会挂在channel的等待队列中：
-** 因读阻塞的goroutine会被向channel写入数据的goroutine唤醒；
-** 因写阻塞的goroutine会被从channel读数据的goroutine唤醒；</li>
+<ul>
+<li>因读阻塞的goroutine会被向channel写入数据的goroutine唤醒；</li>
+<li>因写阻塞的goroutine会被从channel读数据的goroutine唤醒；</li>
+</ul>
+</li>
 <li>注意，一般情况下recvq和sendq至少有一个为空。只有一个例外，那就是同一个goroutine使用select语句向channel一边写数据，一边读数据。</li>
 </ul>
 <h2 id="类型信息">类型信息</h2>
@@ -115,9 +118,12 @@
 <ul>
 <li>关闭channel时会把recvq中的G全部唤醒，本该写入G的数据位置为nil。把sendq中的G全部唤醒，但这些G会panic。</li>
 <li>除此之外，panic出现的常见场景还有：
-** 关闭值为nil的channel
-** 关闭已经被关闭的channel
-** 向已经关闭的channel写数据</li>
+<ul>
+<li>关闭值为nil的channel</li>
+<li>关闭已经被关闭的channel</li>
+<li>向已经关闭的channel写数据</li>
+</ul>
+</li>
 </ul>
 
           </div>
