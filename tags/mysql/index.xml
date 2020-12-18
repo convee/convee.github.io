@@ -6,7 +6,17 @@
     <description>Recent content in mysql on 后端笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql 知识点</title>
+      <link>https://convee.github.io/post/mysql/summary/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/mysql/summary/</guid>
+      <description>SQL 执行流程 Server 层  连接器 查询缓存 分析器 优化器 执行器  存储引擎层  InnoDB MyISAM Memory  SQL 执行顺序 BinLog、RedoLog、UndoLog BinLog 记录所有数据库表结构变更以及数据修改的二进制日志，主从数据库同步用到的都是 BinLog 文件，BinLog 日志有三种模式：
+STATMENT 模式 ROW 模式 MIXED 模式 主从同步流程  主节点必须启用二进制日志，记录任何修改了数据的事件 从节点开启一个线程（I/O Thread）把自己扮演成 mysql 客户端，通过 mysql 协议，请求主节点的二进制文件中的事件 主节点启动一个线程（dump Thread），检查自己二进制中的事件，跟对方请求的位置对比，如果不带请求位置参数，则主节点会从第一个日志文件中的第一个事件一个一个的发送从节点。 从节点接收到主节点发过来的数据把它放置在中继日志（Relay log ）中。并记录该次请求到主节点的具体的哪一个二进制文件的哪一个位置（主节点二进制文件会有多个）。 从节点启动另一个线程（sql Thread），把 Relay log 中的事件读取出来，并在本地再执行一次。  </description>
+    </item>
+    
     <item>
       <title>Mysql 创建用户与授权</title>
       <link>https://convee.github.io/post/mysql/grant/</link>
