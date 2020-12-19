@@ -18,6 +18,15 @@ STATMENT 模式 ROW 模式 MIXED 模式 主从同步流程  主节点必须启�
     </item>
     
     <item>
+      <title>算法-链表</title>
+      <link>https://convee.github.io/post/algorithm/linked-list/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/algorithm/linked-list/</guid>
+      <description>链表  链表是一种线性数据结构，其中的每个元素实际上是一个单独的对象，而所有对象都通过每个元素中的引用字段链接在一起。  单链表 双链表 </description>
+    </item>
+    
+    <item>
       <title>Go 问题集</title>
       <link>https://convee.github.io/post/go/faq/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>

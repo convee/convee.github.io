@@ -6,7 +6,16 @@
     <description>Recent content in 算法 on 后端笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://convee.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法-链表</title>
+      <link>https://convee.github.io/post/algorithm/linked-list/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://convee.github.io/post/algorithm/linked-list/</guid>
+      <description>链表  链表是一种线性数据结构，其中的每个元素实际上是一个单独的对象，而所有对象都通过每个元素中的引用字段链接在一起。  单链表 双链表 </description>
+    </item>
+    
     <item>
       <title>算法-二叉树</title>
       <link>https://convee.github.io/post/algorithm/binary-tree/</link>
